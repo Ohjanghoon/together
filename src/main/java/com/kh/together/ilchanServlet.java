@@ -21,6 +21,7 @@ public class ilchanServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("i hate git!");
 		response.getWriter().append("me too!!");
+		response.getWriter().append("haha");
 	}
 
 }
