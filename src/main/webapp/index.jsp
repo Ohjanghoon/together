@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Together</title>
+<<<<<<< HEAD
 <script>
 window.onload = () => {
 
@@ -27,10 +28,19 @@ window.onload = () => {
 
 
 };
+=======
+<% System.out.println("아무거나!"); %>
+
+<script>
+document.hello.addEventListener('click', () => {
+	alert('메롱');
+});
+>>>>>>> branch 'master' of https://github.com/Ohjanghoon/together.git
 </script>
 </head>
 <body>
 	<h1>Together</h1>
-	<a href="<%= request.getContextPath() %>/helloworld">helloworld</a>
+	<a href="<%= request.getContextPath() %>/helloworld" name="hello">helloworld</a>
+	<a href="<%= request.getContextPath() %>/Ohjanghoon">Ohjanghoon</a>
 </body>
 </html>
