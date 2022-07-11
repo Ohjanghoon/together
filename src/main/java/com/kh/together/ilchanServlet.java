@@ -20,6 +20,7 @@ public class ilchanServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		response.getWriter().append("i hate git!");
+		response.getWriter().append("me too!!");
 	}
 
 }
