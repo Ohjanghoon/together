@@ -5,9 +5,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Together</title>
+<% System.out.println("아무거나!"); %>
+
+<script>
+document.hello.addEventListener('click', () => {
+	alert('메롱');
+});
+</script>
 </head>
 <body>
 	<h1>Together</h1>
-	<a href="<%= request.getContextPath() %>/helloworld">helloworld</a>
+	<a href="<%= request.getContextPath() %>/helloworld" name="hello">helloworld</a>
+	<a href="<%= request.getContextPath() %>/Ohjanghoon">Ohjanghoon</a>
 </body>
 </html>
