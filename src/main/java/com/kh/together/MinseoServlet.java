@@ -21,6 +21,8 @@ public class MinseoServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("hi!");
 		response.getWriter().append("bye!");
+		response.getWriter().append("dyddydy!");
+		
 	}
 
 }
